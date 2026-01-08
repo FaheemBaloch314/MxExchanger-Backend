@@ -30,11 +30,21 @@ EXPIRES_IN=80
 SMTP_MAIL=youremail@mail.com
 SMTP_PASSWORD="Your Password"
 
+---
 
-## Installation & Running
+## 🚀 Installation & Running
+```bash
 
-git clone git@github.com:FaheemBaloch314/MxExchanger-Backend.git
-cd MxExchanger-Backend
+Clone the repository:
+  git clone git@github.com:FaheemBaloch314/MxExchanger-Backend.git
+  cd MxExchanger-Backend
+Install dependencies:
+  npm install
 
-npm install
-npm run dev
+Start the development server:
+  npm run dev
+
+Server will run on http://localhost:3000 (or your configured PORT).
+
+
+
