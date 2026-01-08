@@ -8,43 +8,24 @@ Users can **deposit, withdraw, and send money** securely using **unique account 
 
 ## 💻 Features
 
-- PKR ⇄ USD currency conversion  
-- Automatic tax calculation on every transaction  
+- Convert **PKR ⇄ USD** automatically  
+- Automatic tax calculation on each transaction  
 - Deposit and withdraw money  
-- Internal money transfer using unique account numbers  
-- User authentication with JWT  
+- Send money to other users via **account number**  
+- User authentication with **JWT**  
 - Transaction history management  
-- Secure API endpoints
+- Secure RESTful API endpoints  
 
 ---
 
 ## ⚙️ Configuration
 
-Create a `config/config.env` file in the project root and add the following:
+Create a file `config/config.env` in the project root with the following content:
 
 ```env
 PORT=3000
 MONGO_URI=mongodb://127.0.0.1:27017
-JWT_SECRET= YOUR SECRET KEY
+JWT_SECRET=KALSDklasdlasdf
 EXPIRES_IN=80
 SMTP_MAIL=youremail@mail.com
 SMTP_PASSWORD="Your Password"
-
----
-
-## 🚀 Installation & Running
-```bash
-
-Clone the repository:
-  git clone git@github.com:FaheemBaloch314/MxExchanger-Backend.git
-  cd MxExchanger-Backend
-Install dependencies:
-  npm install
-
-Start the development server:
-  npm run dev
-
-Server will run on http://localhost:3000 (or your configured PORT).
-
-
-
