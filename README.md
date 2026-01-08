@@ -25,7 +25,16 @@ Create a `config/config.env` file in the project root and add the following:
 ```env
 PORT=3000
 MONGO_URI=mongodb://127.0.0.1:27017
-JWT_SECRET=KALSDklasdlasdf
+JWT_SECRET= YOUR SECRET KEY
 EXPIRES_IN=80
 SMTP_MAIL=youremail@mail.com
 SMTP_PASSWORD="Your Password"
+
+
+## Installation & Running
+
+git clone git@github.com:FaheemBaloch314/MxExchanger-Backend.git
+cd MxExchanger-Backend
+
+npm install
+npm run dev
